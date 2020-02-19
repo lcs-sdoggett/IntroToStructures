@@ -107,7 +107,7 @@ struct Circle {
 //Create a cirlce
 var aCircle = Circle.init(radius: 3)
 
-// Find area and surface area
+// Find perimeter and area
 aCircle.perimeter
 aCircle.area
 
@@ -131,8 +131,10 @@ struct Triangle {
     }
 }
 
+// Create a triangle
 var aTriangle = Triangle(side1: 3, side2: 4, base: 5, height: 6)
 
+// Find area and perimeter
 aTriangle.area
 aTriangle.perimeter
 /*:
